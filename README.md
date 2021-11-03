@@ -5,7 +5,7 @@ React TV Show Cast App
 <!-- Live link to deployed app -->
 
 Repository: https://github.com/Mdudzik92/TV-Show-API<br>
-Deployed app:
+Deployed app: https://dudzik-tv-show-react-api.herokuapp.com/
 
 <!-- Technologies used -->
 
