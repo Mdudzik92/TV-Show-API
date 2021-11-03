@@ -22,17 +22,6 @@ a {
 	padding: 0 20px;
 }
 
-.btn {
-	display: inline-block;
-	color: #fff;
-	background-color: #3fb573;
-	font-size: 1em;
-	text-align: center;
-	padding: 10px 15px;
-	border: 0;
-	margin: 10px 0;
-}
-
 header {
 	height: 200px;
 }
@@ -45,4 +34,22 @@ header img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+}
+
+@media (max-width: 800px) {
+	.cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 500px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
 }
